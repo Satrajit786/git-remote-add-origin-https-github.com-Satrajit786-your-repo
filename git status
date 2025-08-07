@@ -1,0 +1,59 @@
+[33mcommit 2ab18c8652fefa97228ce32e0584059da89f5e30[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Satrajit Nath <satrajitn25@gmail.com>
+Date:   Thu Aug 7 01:21:13 2025 +0530
+
+    added/updated/deleted
+
+ src/main/java/com/qa/crm/pages/PerformancePage.java              | 5 [31m-----[m
+ src/main/java/com/qa/crm/pages/SearchPage.java                   | 9 [32m+++++++++[m
+ .../maven/FreeCRMTestAutomation/FreeCRMTest/pom.properties       | 2 [32m+[m[31m-[m
+ 3 files changed, 10 insertions(+), 6 deletions(-)
+
+[33mcommit b2f73f16485020692c647d1a533d6e40821209b2[m
+Author: Satrajit Nath <satrajitn25@gmail.com>
+Date:   Thu Aug 7 00:57:09 2025 +0530
+
+    first commit
+
+ .classpath                                         |  40 [32m+++[m
+ .gitignore                                         |  24 [32m++[m
+ .project                                           |  23 [32m++[m
+ .settings/org.eclipse.jdt.core.prefs               |   8 [32m+[m
+ .settings/org.eclipse.m2e.core.prefs               |   4 [32m+[m
+ pom.xml                                            |  65 [32m++++[m
+ src/main/java/com/crm/qa/bae/TestBase.java         |  83 [32m+++++[m
+ src/main/java/com/crm/qa/config/config.properties  |   4 [32m+[m
+ src/main/java/com/crm/qa/util/TestUtill.java       |   9 [32m+[m
+ src/main/java/com/crm/qa/util/config.properties    |   4 [32m+[m
+ src/main/java/com/qa/crm/pages/AdminPage.java      |   5 [32m+[m
+ src/main/java/com/qa/crm/pages/HomePage.java       |   7 [32m+[m
+ src/main/java/com/qa/crm/pages/LeavePage.java      |   9 [32m+[m
+ src/main/java/com/qa/crm/pages/LoginPage.java      |  67 [32m++++[m
+ .../java/com/qa/crm/pages/PerformancePage.java     |   5 [32m+[m
+ src/main/java/com/qa/crm/pages/SignUp.java         |   6 [32m+[m
+ .../java/com/crm/qa/testcases/LoginPageTest.java   |  82 [32m+++++[m
+ target/classes/META-INF/MANIFEST.MF                |   4 [32m+[m
+ .../FreeCRMTest/pom.properties                     |   7 [32m+[m
+ .../FreeCRMTestAutomation/FreeCRMTest/pom.xml      |  65 [32m++++[m
+ target/classes/com/crm/qa/config/config.properties |   4 [32m+[m
+ target/classes/com/crm/qa/util/config.properties   |   4 [32m+[m
+ test-output/Default suite/Default test.html        | 169 [32m++++++++++[m
+ test-output/Default suite/Default test.xml         |  43 [32m+++[m
+ test-output/Default suite/testng-failed.xml        |  15 [32m+[m
+ test-output/bullet_point.png                       | Bin [31m0[m -> [32m356[m bytes
+ test-output/collapseall.gif                        | Bin [31m0[m -> [32m157[m bytes
+ test-output/emailable-report.html                  |  52 [32m+++[m
+ test-output/failed.png                             | Bin [31m0[m -> [32m977[m bytes
+ test-output/index.html                             | 351 [32m+++++++++++++++++++++[m
+ test-output/jquery-3.6.0.min.js                    |   2 [32m+[m
+ .../TEST-com.crm.qa.testcases.LoginPageTest.xml    |  43 [32m+++[m
+ test-output/navigator-bullet.png                   | Bin [31m0[m -> [32m352[m bytes
+ test-output/passed.png                             | Bin [31m0[m -> [32m1019[m bytes
+ test-output/skipped.png                            | Bin [31m0[m -> [32m967[m bytes
+ test-output/testng-failed.xml                      |  15 [32m+[m
+ test-output/testng-reports.css                     | 326 [32m+++++++++++++++++++[m
+ test-output/testng-reports.js                      | 122 [32m+++++++[m
+ test-output/testng-reports1.css                    | 344 [32m++++++++++++++++++++[m
+ test-output/testng-reports2.js                     |  76 [32m+++++[m
+ test-output/testng-results.xml                     |  89 [32m++++++[m
+ 41 files changed, 2176 insertions(+)
