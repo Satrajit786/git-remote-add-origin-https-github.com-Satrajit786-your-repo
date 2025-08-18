@@ -4,6 +4,8 @@ public class AdminPage {
 	
 	public void testgit() {
 		
+		System.out.println("Joy EastBengal");
+		
 	}
 
 }
