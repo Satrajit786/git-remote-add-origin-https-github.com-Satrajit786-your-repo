@@ -55,7 +55,7 @@ public class LoginPage extends TestBase{
 		password.sendKeys(pwd);
 		loginbtn.click();
 		
-		return new HomePage();
+		return new HomePage(null);
 		
 		
 	}
