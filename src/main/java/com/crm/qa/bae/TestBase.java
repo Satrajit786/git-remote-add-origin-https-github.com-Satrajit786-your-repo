@@ -42,7 +42,7 @@ public class TestBase {
 	  }
   }
 	  public static void initialization() {
-	        String browsername = prop.getProperty("browser");
+	        String browsername = prop.getProperty("browser"); // it will give a string 
 	        
 	        if(browsername.equalsIgnoreCase("chrome")) {
 	        	
