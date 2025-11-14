@@ -9,6 +9,9 @@ public class TestUtill extends TestBase{
 	
 	public void switchToFrame(String framename) {
 		driver.switchTo().frame("mainpanel");
+		
+		System.out.println("Hello world");
+		
 	}
 
 	

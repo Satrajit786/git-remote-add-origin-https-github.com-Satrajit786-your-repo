@@ -7,6 +7,7 @@ public class OrderPage {
 	public void test() {
 		
 		System.out.println("test");
+		System.out.println("Hello world");
 	}
 
 }
