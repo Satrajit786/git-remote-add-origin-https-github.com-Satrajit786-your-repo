@@ -7,6 +7,7 @@ public class GitpageTest {
 		
 		System.out.println("Hello world");
 		System.out.println("Tset 123");
+		System.out.println("I love Java");
 
 	}
 

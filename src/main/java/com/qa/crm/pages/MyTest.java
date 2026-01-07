@@ -23,7 +23,9 @@ public class MyTest {
 		 
 		 System.out.println(sum);
 		 
-		
+		 int a [] = {2,6,7,10,12};
+		 
+		 System.out.println(a);
 		
 	
 
