@@ -10,7 +10,7 @@ import com.crm.qa.bae.TestBase;
 
 public class LoginPage extends TestBase{
 	
-	//PageFactory - OR
+	//PageFactory - Object Repositiory
 	
 	@FindBy(name = "username")
 	WebElement username;
@@ -36,6 +36,8 @@ public class LoginPage extends TestBase{
 	}
 	
 	// Methods
+	
+	// this method will return tittle of the page.
 	
 	public  String validateLoginPage() {
 		

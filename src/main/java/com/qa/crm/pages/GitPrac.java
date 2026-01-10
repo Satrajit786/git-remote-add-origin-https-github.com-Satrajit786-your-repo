@@ -13,6 +13,11 @@ public class GitPrac {
 		
 		String s = "BSS";
 		
+		String country = "India";
+		
+		int pin = 700124;
+		
+		
 		System.out.println(b1.charAt(2));
 		
 		System.out.println(b1.equals(B2));
@@ -20,6 +25,8 @@ public class GitPrac {
 		System.out.println(b1.contains(B2));
 		
 		System.out.println(b1.compareTo(s));
+		
+		
 	}
 
 }

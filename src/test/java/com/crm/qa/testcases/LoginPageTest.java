@@ -23,12 +23,17 @@ public class LoginPageTest extends TestBase{
 	
 	public LoginPageTest() {
 		super();
+		
+		
+		// by using super keyword it will call the super class here Testbase class.
 	}
 	
 	
 	@BeforeMethod
 	
 	public void setup() {
+		
+		// It will initialize the initialization() method from base class
 		
 		initialization();
 		
@@ -41,6 +46,9 @@ public class LoginPageTest extends TestBase{
 	public void LoginPageTittleTest()
 	{
 		String Tittle = loginPage.validateLoginPage();
+		
+		
+		//comparing with Tittle of the page
 		
 		Assert.assertEquals(Tittle, "OrangeHRM");
 	}
@@ -58,6 +66,9 @@ public class LoginPageTest extends TestBase{
 	
 	public void loginTest() {
 		homepage =   loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
+		
+		// prop.getProperty("username"), prop.getProperty("password")); 
+		//I have define this properties in config file
 	        
 	    }
 	/*

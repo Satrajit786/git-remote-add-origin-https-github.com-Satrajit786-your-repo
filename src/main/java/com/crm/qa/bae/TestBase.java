@@ -9,6 +9,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import com.crm.qa.util.TestUtill;
@@ -44,9 +45,20 @@ public class TestBase {
 	  public static void initialization() {
 	        String browsername = prop.getProperty("browser"); // it will give a string 
 	        
+	        boolean isHeadless = Boolean.parseBoolean(prop.getProperty("headless"));
+	        
 	        if(browsername.equalsIgnoreCase("chrome")) {
 	        	
-	        	driver = new ChromeDriver();
+	        	ChromeOptions options = new ChromeOptions();
+	        	
+	        	if (isHeadless) {
+	        		
+	        		options.addArguments("--headless");
+	        		options.addArguments("--window-size=1920,1080");
+	        	}
+	        	
+	        	
+	        	driver = new ChromeDriver(options);
 	        	
 	        }
 	        
@@ -64,20 +76,8 @@ public class TestBase {
 	        driver.manage().timeouts().implicitlyWait(TestUtill.implicit_wait, TimeUnit.SECONDS);
 	        
 	        driver.get(prop.getProperty("url"));
-	        
-	        
-	        
-	        
-		
+	        		
 	}
-  
-
-
 }
-
-
-
-
-
 
 
