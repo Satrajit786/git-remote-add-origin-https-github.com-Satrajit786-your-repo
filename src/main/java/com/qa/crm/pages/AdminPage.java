@@ -12,6 +12,7 @@ public class AdminPage {
 		
 		System.out.println("Joy EastBengal");
 		System.out.println("test1");
+		System.out.println("jdjdj");
 		
 	}
 
